@@ -1,0 +1,24 @@
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+@import url('./__play/video__play.css');
+@import url('./__duration/video__duration.css');
+@import url('./__background/video__background.css');
+
+
+.video__container{
+    position: relative;
+}
+.video__container:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:375px){
+    .video__container{
+        margin-top: 8px
+    }
+}
+@media screen and (max-width:320px){
+    .video__container{
+        margin-top: 8px
+    }
+}

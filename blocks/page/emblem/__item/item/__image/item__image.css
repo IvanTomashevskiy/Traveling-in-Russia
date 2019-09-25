@@ -1,0 +1,13 @@
+.item__image{
+    align-items: center;
+    margin: 10px;
+}
+
+@media screen and (max-width:1024px){
+    .item__image{
+        width:164px;
+        height:200px;
+        padding:0 15px;
+        margin:0
+    }
+}

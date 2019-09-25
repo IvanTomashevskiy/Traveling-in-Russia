@@ -1,0 +1,30 @@
+@import url('./website__url-title/website__url-title.css');
+@import url('./website__url/website__url.css');
+ .places__website{
+     padding-bottom: 50px;
+ }
+ @media screen and (max-width:768px){
+     .places__website{
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+     }
+ }
+ @media screen and (max-width:375px){
+    .places__website{
+       margin-bottom: 30px;
+       padding-top: 20px;
+       padding-bottom: 0px;
+       margin-top: -450px;
+    
+    }
+}
+@media screen and (max-width:320px){
+    .places__website{
+       margin-bottom: 30px;
+       padding-top: 20px;
+       padding-bottom: 0px;
+       margin-top: -400px;
+    
+    }
+}

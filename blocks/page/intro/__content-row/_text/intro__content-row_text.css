@@ -1,0 +1,36 @@
+.intro__content-row_text{
+font-family: 'Inter';
+font-size: 14px;
+line-height: 23px;
+color: #FFFFFF;
+margin: 35px 18px 0 148px; 
+width: 683px;
+
+
+}
+@media screen and (max-width:1024px){
+    .intro__content-row_text{
+        width: 692px;
+        margin: 35px 0px 35px 48px;
+    }
+}
+
+@media screen and (max-width: 768px){
+.intro__content-row_text {
+    width: 720px;
+    margin: 39px 0px 35px 24px;
+}
+}
+
+@media screen and (max-width: 375px){
+    .intro__content-row_text {
+        width: 343px;
+        margin: 39px 0px 0px 16px;
+}
+}
+@media screen and (max-width: 320px){
+    .intro__content-row_text {
+        width: 288px;
+        margin: 39px 0px 0px 16px;
+}
+}

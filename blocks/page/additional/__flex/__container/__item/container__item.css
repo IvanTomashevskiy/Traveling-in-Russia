@@ -1,0 +1,19 @@
+.container__item{
+    width: 284px;
+    height: 330px;
+}
+
+@media screen and (max-width:1024px){
+    .container__item{
+        width: 240px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container__item{
+        width: 284px;
+        height: 330px;
+    }
+}
+

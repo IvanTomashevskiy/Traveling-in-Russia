@@ -1,0 +1,28 @@
+
+
+@import url('./__container/video__container.css');
+
+.video__flex{
+    display: flex;
+    margin:0 48px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:768px){
+    .video__flex{
+        margin:0 24px; 
+    }
+}
+
+@media screen and (max-width:375px){
+    .video__flex{
+        margin:0 16px; 
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:320px){
+    .video__flex{
+        margin:0 16px; 
+        flex-direction: column;
+    }
+}

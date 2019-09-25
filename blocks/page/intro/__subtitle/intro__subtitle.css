@@ -1,0 +1,36 @@
+.intro__subtitle{
+font-family: 'Inter';
+font-size: 24px;
+line-height: 37px;
+color: #FFFFFF;
+margin: 45px 449px 0 148px; 
+font-weight: 200;
+}
+
+@media screen and (max-width:1024px){
+    .intro__subtitle{
+        width: 692px;
+        margin: 0px 48px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .intro__subtitle{
+        width: 720px;
+        margin: 0px 24px;
+    }
+}
+@media screen and (max-width:375px){
+    .intro__subtitle{
+        width: 288px;
+        margin: 0px 16px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width:320px){
+    .intro__subtitle{
+        width: 288px;
+        margin: 0px 16px;
+        line-height: 32px;
+    }
+}

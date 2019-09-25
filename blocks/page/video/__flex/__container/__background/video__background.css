@@ -1,0 +1,29 @@
+.video__background{
+    position: relative;
+}
+
+@media screen and (max-width: 1024px){
+    .video__background{
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video__background{
+        width: 352px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 375px){
+    .video__background{
+        width: 343px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 320px){
+    .video__background{
+        width: 288px;
+        height: 192px;
+    }
+}

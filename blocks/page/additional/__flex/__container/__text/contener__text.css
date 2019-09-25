@@ -1,0 +1,24 @@
+.container__text{
+position: absolute;
+font-family: 'Inter';
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+width: 248px;
+margin: 0;
+padding: 246px 18px 30px 
+}
+
+@media screen and (max-width:1024px){
+    .container__text{
+      width:210px;
+      padding: 160px 15px 16px 
+    }
+}
+
+@media screen and (max-width:768px){
+  .container__text{
+    width:248px;
+    padding: 246px 18px 30px 
+  }
+}

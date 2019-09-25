@@ -1,0 +1,58 @@
+@import url('./item/item.css');
+
+
+.emblem__item{
+display: flex;
+list-style: none;
+justify-content: space-between;
+padding: 0 60px;
+margin: 0
+}
+
+@media screen and (max-width:1024px){
+    .emblem__item{
+        width: 208px;
+        margin:0 25px;
+        padding: 0
+    }
+}
+
+@media screen and (max-width:768px){
+    .emblem__item{
+        width: 185px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 68px;
+        grid-row-gap: 68px;
+        background-color: rgb(56, 55, 55);
+        padding: 82px 35px 0 35px;
+        margin:0
+    }
+}
+@media screen and (max-width:375px){
+    .emblem__item{
+        width: 185px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+       
+        grid-row-gap: 56px;
+        background-color: rgb(56, 55, 55);
+        padding: 32px 92px 0 92px;
+        margin:0
+    }
+}
+@media screen and (max-width:320px){
+    .emblem__item{
+        width: 185px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+        
+        grid-row-gap: 56px;
+        background-color: rgb(56, 55, 55);
+        padding: 32px 67px 0 67px;
+        margin:0
+    }
+}

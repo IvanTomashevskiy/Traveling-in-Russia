@@ -1,0 +1,18 @@
+@import url('./__lang/header__lang.css');
+@import url('./__lang_active/header__lang_active.css');
+
+.header__langs{
+    padding: 47px 48px 0 0;
+}
+
+@media screen and (max-width:320px){
+    .header__langs{
+        padding: 32px 16px 0 0;
+    }
+}
+
+@media screen and (max-width:375px){
+    .header__langs{
+        padding: 32px 16px 0 0;
+    }
+}

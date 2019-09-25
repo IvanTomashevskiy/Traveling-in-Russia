@@ -1,0 +1,19 @@
+@import url('./__link/barentsburg__link.css');
+@import url('./__url-heading/barentsburg__url-heading.css');
+
+.barentsburg__column-second{
+    padding-top:48px
+}
+
+@media screen and (max-width:375px){
+    .barentsburg__column-second{
+        padding:24px 16px 0 16px;
+        width:343px;
+    }
+}
+@media screen and (max-width:320px){
+    .barentsburg__column-second{
+        padding:24px 16px 0 16px;
+        width: 288px;
+    }
+}

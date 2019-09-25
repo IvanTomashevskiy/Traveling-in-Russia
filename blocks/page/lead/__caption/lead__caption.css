@@ -1,0 +1,46 @@
+.lead__caption{
+    font-family: 'Inter';
+font-size: 10px;
+line-height: normal;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: white;
+margin: 10px 497px 0 147px;
+width: 636px;
+height: 10px;
+}
+
+@media screen and (max-width: 1440px){
+    .lead__caption{
+        margin: 10px 577px 0 227px; 
+        width: 636px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead__caption{
+        margin: 10px 497px 0 48px; 
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__caption{
+        margin: 16px 108px 0 24px; 
+        width: 636px;
+    }
+}
+@media screen and (max-width: 375px){
+    .lead__caption{
+        margin: 10px 16px 0 16px; 
+        width: 343px;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead__caption{
+        margin: 10px 16px 0 16px; 
+        width: 288px;
+    }
+}
+
+

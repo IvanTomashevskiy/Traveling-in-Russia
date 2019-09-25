@@ -1,0 +1,32 @@
+.video__subtitle{
+    position: absolute;
+    z-index: 2;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin:280px 0px 0px 30px;
+}
+
+@media screen and (max-width: 1024px){
+    .video__subtitle{
+        margin:240px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .video__subtitle{
+        margin:160px 0px 0px 25px;
+    }
+}
+@media screen and (max-width: 375px){
+    .video__subtitle{
+        margin:160px 0px 0px 24px;
+    }
+}
+@media screen and (max-width: 320px){
+    .video__subtitle{
+        margin:160px 0px 0px 16px;
+    }
+}

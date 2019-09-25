@@ -1,0 +1,8 @@
+@import url('./__title/places__title.css');
+@import url('./__column-first/place__column-first.css');
+
+.places__place{
+    background-color:  rgb(56, 55, 55);
+  
+
+}

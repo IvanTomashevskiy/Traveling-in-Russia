@@ -1,0 +1,29 @@
+.barentsburg__text{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 380px;
+    margin: 0;
+    padding: 48px 120px 0 50px;
+}
+
+@media screen and (max-width:768px){
+     .barentsburg__text{
+         padding-left: 24px
+     }
+}
+@media screen and (max-width:375px){
+    .barentsburg__text{
+        padding-left: 16px;
+        width: 343px;
+        padding: 32px 16px 16px 16px;
+    }
+}
+@media screen and (max-width:320px){
+    .barentsburg__text{
+        padding-left: 16px;
+        width: 288px;
+        padding: 32px 16px 32px 16px;
+    }
+}

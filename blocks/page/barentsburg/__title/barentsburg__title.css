@@ -1,0 +1,42 @@
+.barentsburg__title{
+    font-family: 'Inter';
+    font-size: 42px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 583px;
+    margin:0;
+    padding:85px 649px 20px 48px;
+}
+
+@media screen and (max-width:1024px){
+    .barentsburg__title{
+        
+        padding:100px 393px 0px 48px;
+        width: 583px;
+    }
+} 
+@media screen and (max-width:768px){
+    .barentsburg__title{
+        
+        padding:88px 161px 0px 24px;
+        width: 583px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .barentsburg__title{
+        font-size: 24px;
+        line-height: 26px;
+        padding:88px 16px 0px 16px;
+        width: 343px;
+    }
+}
+@media screen and (max-width:320px){
+    .barentsburg__title{
+        font-size: 24px;
+        line-height: 26px;
+        padding:64px 16px 0px 16px;
+        width: 288px;
+       
+    }
+}

@@ -1,0 +1,11 @@
+.item__text{
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    width: 208px;
+    color: #CCCCCC;
+    padding-top: 35px;
+    margin: 0
+
+}

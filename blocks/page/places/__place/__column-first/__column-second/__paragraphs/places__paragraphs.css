@@ -1,0 +1,11 @@
+@import url('./__paragraph/places__paragraph.css');
+@media screen and (max-width:375px){
+    .places__paragraphs{
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width:320px){
+    .places__paragraphs{
+        margin-top: 350px;
+    }
+}

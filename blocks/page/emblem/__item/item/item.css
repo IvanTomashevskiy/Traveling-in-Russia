@@ -1,0 +1,20 @@
+@import url('./__image/item__image.css');
+@import url('./__text/item__text.css');
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+.item{
+    width:195px
+}
+}
+
+@media screen and (max-width:768px){
+    .item{
+        width:180px
+    }
+    }

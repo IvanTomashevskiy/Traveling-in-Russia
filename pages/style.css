@@ -1,0 +1,9 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/blocks.css');
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    src: url(../fonts/Inter-Regular.woff) format("woff2"),
+         url(../fonts/Inter-Regular.woff2) format("woff");
+  }

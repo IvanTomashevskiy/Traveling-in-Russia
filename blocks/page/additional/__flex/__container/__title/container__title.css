@@ -1,0 +1,18 @@
+.container__title{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 27px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin:0;
+    width: 248px;
+    padding: 30px 18px ;
+    font-weight: bold
+}
+
+@media screen and (max-width:1024px){
+    .container__title{
+        padding: 24px 16px ;
+        width:208px
+    }
+}

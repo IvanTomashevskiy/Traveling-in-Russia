@@ -1,0 +1,13 @@
+@import url('./_author-data/intro__content-row_author-data.css');
+@import url('./_text/intro__content-row_text.css');
+@import url(./_author-data/intro__author_bold.css);
+
+.intro__content-row{
+    display:flex;
+    
+}
+@media screen and (max-width:768px){
+    .intro__content-row{
+        flex-direction: column-reverse;
+    }
+}

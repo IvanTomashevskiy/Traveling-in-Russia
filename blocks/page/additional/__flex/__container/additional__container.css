@@ -1,0 +1,26 @@
+@import url('./__title/container__title.css');
+@import url('./__text/contener__text.css');
+@import url('./__item/container__item.css');
+@import url('./__image/container__item.css');
+
+.additional__container{
+position: relative;
+}
+
+@media screen and (max-width:1024px){
+ .additional__container{
+    padding-left: 10px;
+ }
+}
+
+@media screen and (max-width:375px){
+   .additional__container{
+      padding:0
+   }
+  }
+
+  @media screen and (max-width:320px){
+   .additional__container{
+      padding:0
+  }
+}

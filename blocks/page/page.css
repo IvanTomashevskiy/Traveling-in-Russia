@@ -1,0 +1,68 @@
+
+@import url('../page/additional/additional.css');
+@import url('../page/barentsburg/barentsburg.css');
+@import url('../page/comments/comments.css');
+@import url('../page/content-subtitle/content-subtitle.css');
+@import url('../page/content-title/content-title.css');
+@import url('../page/cover/cover.css');
+@import url('../page/emblem/emblem.css');
+@import url('../page/footer/footer.css');
+@import url('../page/header/header.css');
+@import url('../page/intro/intro.css');
+@import url('../page/lead/lead.css');
+@import url('../page/photo-grid/photo-grid.css');
+@import url('../page/places/places.css');
+@import url('../page/video/video.css');
+
+
+
+
+.page{
+    background-color: rgb(56, 55, 55);
+    max-width: 1280px;
+    margin: 0 auto;
+    
+   font-family: 'Inter';
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+@media screen and (max-width: 1440px){
+ .page{
+    background-color: rgb(56, 55, 55);
+    margin: 0 auto;
+    
+ }
+}
+
+@media screen and (max-width: 1024px){
+    .page{
+       background-color: rgb(56, 55, 55);
+       margin: 0 auto;
+       max-width: 1024px;
+    }
+}
+@media screen and (max-width: 768px){
+   .page{
+      background-color: rgb(56, 55, 55);
+      margin: 0 auto;
+      max-width: 768px;
+   }
+}
+@media screen and (max-width: 375px){
+   .page{
+      background-color: rgb(56, 55, 55);
+      margin: 0 auto;
+      max-width: 375px;
+   }
+}
+@media screen and (max-width: 320px){
+   .page{
+      background-color: rgb(56, 55, 55);
+      margin: 0 auto;
+      max-width: 320px;
+   }
+}

@@ -1,0 +1,9 @@
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('./__container/additional__container.css');
+@import url('./__flex/additional__flex.css');
+
+.additional{
+    background-color: rgb(56, 55, 55);
+    
+}

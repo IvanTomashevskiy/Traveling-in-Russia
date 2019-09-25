@@ -1,0 +1,20 @@
+@import url('./__paragraphs/places__paragraphs.css');
+@import url('./__website/places__website.css');
+
+.place__column-second{
+    padding-left: 40px;
+    margin-top: -109px
+}
+
+@media screen and (max-width:375px){
+    .place__column-second{
+        padding-left: 16px;
+        margin:0
+    }
+}
+@media screen and (max-width:320px){
+    .place__column-second{
+        padding-left: 16px;
+        margin:0
+    }
+}

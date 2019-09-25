@@ -1,0 +1,43 @@
+.intro__info{
+    list-style-type:none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 13px;
+    line-height: 20px;
+    margin: 35px 0px 0 105px; 
+    list-style-position:inside;
+
+}
+
+@media screen and (max-width:1024px){
+    .intro__info{
+        margin: 0 0 0 48px;
+        padding-inline-start: 0px;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .intro__info{
+        margin: 19px 24px 0px;
+        padding-inline-start: 0px;
+        
+    }
+}
+
+@media screen and (max-width:375px){
+    .intro__info{
+        margin: 19px 16px 0px;
+        padding-inline-start: 0px;
+        
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro__info{
+       
+        margin: 19px 16px 0px;
+        padding-inline-start: 0px;
+        
+    }
+}

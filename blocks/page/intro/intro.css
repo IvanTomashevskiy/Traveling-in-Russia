@@ -1,0 +1,10 @@
+@import url('./__content-row/intro__content-row.css');
+@import url('./__info/intro__info.css');
+@import url('./__info/intro__info_bold.css');
+
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__title/intro__title.css');
+
+.intro{
+    background-color: rgb(56, 55, 55);
+}
